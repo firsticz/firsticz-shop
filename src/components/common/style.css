@@ -1,0 +1,91 @@
+.navbar {
+    top: 0px;
+    height: 76px;
+    position: sticky;
+    background: transparent;
+    z-index: 99;
+  }
+  
+.inside-nav {
+backdrop-filter: none;
+box-shadow: none;
+background: transparent;
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+
+}
+
+.nav {
+padding-left: calc(2 * var(--nextui-space-sm));
+    padding-right: calc(2 * var(--nextui-space-sm));
+    max-width: var(--nextui-breakpoints-lg);
+    align-items: center;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: calc(var(--nextui--rowGap) / 2);
+    padding-right: calc(var(--nextui--rowGap) / 2);
+}
+
+.logo{
+    display: inline-flex;
+    align-items: baseline;
+    line-height: inherit;
+    text-decoration: none;
+    background-image: inherit;
+    background-color: inherit;
+    background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-box-align: center;
+}
+
+.menu-inside {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.menu-inside > span {
+    margin-left: calc(20.3333px) !important;
+    margin-top: calc(-1px) !important;
+    display: block;
+    width: 1px;
+    height: 1px;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.menu-inside > a {
+    font-weight: 600;
+    color: var(--nextui-colors-text);
+    transition: var(--nextui-transitions-link);
+    display: inline-flex;
+    align-items: baseline;
+    line-height: inherit;
+    text-decoration: none;
+    background-image: inherit;
+    background-color: inherit;
+    background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-box-align: center;
+}
+
+.menu-inside > a:active {
+    color: var(--nextui-colors-primary);
+}
