@@ -7,20 +7,20 @@ const Header = () => {
 			<div className='inside-nav'>
 				<nav className='nav'>
 					<div className="menu">
-						<a href="#" className="logo">
+						<a href="/" className="logo">
 							<div>
-								<img src={process.env.PUBLIC_URL +"/Untitled.svg"} style={{width: '100%'}} />
+								<img src={process.env.PUBLIC_URL +"/Untitled.svg"} style={{width: '100%'}} alt="" />
 							</div>
 						</a>
 					</div>
 					<div className="menu">
 						<div className="menu-inside">
 							<span></span>
-							<a href="#">Script</a>
+							<a href="/">Script</a>
 							<span></span>
-							<a href="#">Script</a>
+							<a href="/">Script</a>
 							<span></span>
-							<a href="#">Script</a>
+							<a href="/">Script</a>
 
 						</div>
 					</div>
